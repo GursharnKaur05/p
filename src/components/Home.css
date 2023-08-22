@@ -1,0 +1,34 @@
+.glassmorphic-container {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(0, 0, 0, 0.15)
+    );
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .glassmorphic-content {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* You can add additional styling for your content here */
+  
